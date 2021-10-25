@@ -1,4 +1,4 @@
-package facade;
+package Facade.Loja;
 
 public class ApiCartao {
 
