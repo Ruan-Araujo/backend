@@ -19,5 +19,4 @@ public class ComputerFactory {
         System.out.println("O PC foi obtido");
         return macFlyweigth.get(id);
     }
-
 }

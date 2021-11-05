@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="wrapper2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/h2/service/wrapper.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
