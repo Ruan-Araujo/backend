@@ -1,6 +1,6 @@
 package SistemaOdonto.br.com.dh.odonto.model;
 
-import java.util.Date;
+import java.sql.Date;
 
 public class Paciente {
 

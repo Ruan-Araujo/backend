@@ -31,17 +31,14 @@ public class ConfiguracaoJDBC {
     public Connection conectarComBancoDados() {
         Connection connection = null;
 
-       // try {
-        //    connection = DriverManager.getConnection(
-        //            jdbcDriver,
-         //           dbUrl,
-        //            nomeUsuario,
-        //            senhaUsuario
-          //  );
-       // }
-       // catch (SQLException e) {
-       //     e.printStackTrace();
-       // }
+       try {
+           connection = DriverManager.getConnection(
+                dbUrl, nomeUsuario, senhaUsuario
+           );
+       }
+       catch (SQLException throwables) {
+           throwables.printStackTrace();
+       }
 
         return connection;
     }
